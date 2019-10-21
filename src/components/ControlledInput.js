@@ -35,7 +35,7 @@ class Form extends React.Component {
  
   render() {
     return (
-      <div>
+      <div style={{ fontSize: "20px" }}>
         <form onSubmit={event => this.handleSubmit(event)}>
           <input
             type="text"
